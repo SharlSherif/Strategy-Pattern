@@ -6,7 +6,7 @@ namespace StrategyPattern
     {
         static void Main(string[] args)
         {
-            IVehicle Vehicle = new Car();
+            Vehicle Vehicle = new Motorcycle();
             Road Road = new Road(Vehicle);
 
             Road.AskVehicleToGo();

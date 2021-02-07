@@ -2,14 +2,14 @@
 
 namespace StrategyPattern
 {
-    interface IVehicle
+    abstract class Vehicle
     {
         public void Go()
         {
             Console.WriteLine("Vroom Vroom!");
         }
 
-        public void Honk();
-        public void MaximumSpeed();
+        public virtual void Honk() { }
+        public virtual void MaximumSpeed() { }
     }
 }

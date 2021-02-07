@@ -4,14 +4,14 @@ using System.Text;
 
 namespace StrategyPattern
 {
-    class Car : IVehicle
+    class Car : Vehicle
     {
-        public void Honk ()
+        public override void Honk ()
         {
             Console.WriteLine("Beep");
         }
 
-        public void MaximumSpeed()
+        public override void MaximumSpeed()
         {
             Console.WriteLine(120);
         }

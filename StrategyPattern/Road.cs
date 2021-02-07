@@ -6,9 +6,9 @@ namespace StrategyPattern
 {
     class Road: IRoad
     {
-        private IVehicle _vehicle;
+        private Vehicle _vehicle;
 
-        public Road (IVehicle Vehicle)
+        public Road (Vehicle Vehicle)
         {
             _vehicle = Vehicle;
         }
